@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace atv1_ws
     {
         projeto_wsEntities bd = new projeto_wsEntities();
         usuario logada = new usuario();
+        usuario usSenha = new usuario();
         usuario pesquisado = new usuario();
         public Form3()
         {
@@ -23,6 +25,7 @@ namespace atv1_ws
 
             label1.Visible = false;
             logada = Form1.logado;
+            usSenha.senha = Form1.logado2.senha;
             carregarFoto();
             preencheInfo();
             preencheCombos();
@@ -67,9 +70,9 @@ namespace atv1_ws
             txtConfirmacao.UseSystemPasswordChar = true;
             pictureBox5.Click += aparecerSenha;
 
-            txtConfirmacao.Visible = false;
-            label26.Visible = false;
-            label27.Visible = false;
+            txtConfirmacao.Visible = true;
+            label26.Visible = true;
+            label27.Visible = true;
             txtSenha.LostFocus += saiu;
             
 
@@ -221,81 +224,107 @@ namespace atv1_ws
                 imgErroPais.Visible == false && imgErroEstado.Visible == false && imgErroCidade.Visible == false &&
                 imgErroBairro.Visible == false && imgErroEndereco.Visible == false) //todos os campos foram preenchidos corretamente
             {
-                usuario alterar = new usuario();
-                alterar = logada;
-                string novoValorNome = txtNome.Text;
-                string novoValorData = txtData.Text;
-                string novoValorTelefone = txtTelefone.Text;
-                string novoValorCelular = txtCelular.Text;
-                string novoValorEmail = txtEmail.Text;
-                string novoValorSenha = txtSenha.Text;
-                string novoValorCEP = txtCEP.Text;
-                string novoValorBairro = txtBairro.Text;
-                string novoValorEndereco = txtEndereco.Text;
-
-                paises tes = new paises();
-                tes = bd.paises.Where(u => u.nome.Equals(comboBox1.Text)).FirstOrDefault();
-
-                estados tec = new estados();
-                tec = bd.estados.Where(d => d.nome.Equals(comboBox2.Text)).FirstOrDefault();
-
-                cidade tep = new cidade();
-                tep = bd.cidade.Where(g => g.nome.Equals(comboBox3.Text)).FirstOrDefault();
-
-
-                Image img = roundShapePB2.Image;
-                byte[] arr;
-                ImageConverter converter = new ImageConverter();
-                arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
-
-
-                bool validAdm = false;
-                if (checkBox1.Checked == true)
+                if (txtConfirmacao.Text == txtSenha.Text)
                 {
-                    validAdm = true;
-                }
-                else
-                {
-                    validAdm = false;
-                }
+                    usuario alterar = new usuario();
+                    alterar = logada;
+                    string novoValorNome = txtNome.Text;
+                    string novoValorData = txtData.Text;
+                    string novoValorTelefone = txtTelefone.Text;
+                    string novoValorCelular = txtCelular.Text;
+                    string novoValorEmail = txtEmail.Text;
+                    string novoValorSenha = txtSenha.Text;
+                    string novoValorCEP = txtCEP.Text;
+                    string novoValorBairro = txtBairro.Text;
+                    string novoValorEndereco = txtEndereco.Text;
+
+                    string passwords = encryption(novoValorSenha);
+
+                    paises tes = new paises();
+                    tes = bd.paises.Where(u => u.nome.Equals(comboBox1.Text)).FirstOrDefault();
+
+                    estados tec = new estados();
+                    tec = bd.estados.Where(d => d.nome.Equals(comboBox2.Text)).FirstOrDefault();
+
+                    cidade tep = new cidade();
+                    tep = bd.cidade.Where(g => g.nome.Equals(comboBox3.Text)).FirstOrDefault();
 
 
-                //usuario novin = new usuario();
-                bd.usuario.ToList().ForEach(f =>
-                {
-                    if (f.id == alterar.id)
+                    Image img = roundShapePB2.Image;
+                    byte[] arr;
+                    ImageConverter converter = new ImageConverter();
+                    arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
+
+
+                    bool validAdm = false;
+                    if (checkBox1.Checked == true)
                     {
-                        f.nome = novoValorNome;
-                        f.foto = arr;
-                        f.dataDeNascimento = novoValorData;
-                        f.telefone = novoValorTelefone;
-                        f.celular = novoValorCelular;
-                        f.email = novoValorEmail;
-                        f.senha = novoValorSenha;
-                        f.cep = novoValorCEP;
+                        validAdm = true;
+                    }
+                    else
+                    {
+                        validAdm = false;
+                    }
 
-                        f.id_pais = tes.id;
-                        f.id_estado = tec.id;
-                        f.id_cidade = tep.id;
 
-                        f.bairro = novoValorBairro;
-                        f.endereco = novoValorEndereco;
-                        f.administrador = validAdm;
+                    //usuario novin = new usuario();
+                    bd.usuario.ToList().ForEach(f =>
+                    {
+                        if (f.id == alterar.id)
+                        {
+                            f.nome = novoValorNome;
+                            f.foto = arr;
+                            f.dataDeNascimento = novoValorData;
+                            f.telefone = novoValorTelefone;
+                            f.celular = novoValorCelular;
+                            f.email = novoValorEmail;
+                            f.senha = passwords;
+                            f.cep = novoValorCEP;
+
+                            f.id_pais = tes.id;
+                            f.id_estado = tec.id;
+                            f.id_cidade = tep.id;
+
+                            f.bairro = novoValorBairro;
+                            f.endereco = novoValorEndereco;
+                            f.administrador = validAdm;
 
                         bd.SaveChanges();
                     }
-                });
-                //bd.usuario.Add(novin);
-                bd.SaveChanges();
+                    });
+                    //bd.usuario.Add(novin);
+                    bd.SaveChanges();
 
-                label1.Visible = true;
-                label1.Text = "Perfil salvo com sucesso!";
+                    label1.Visible = true;
+                    label1.Text = "Perfil salvo com sucesso!";
+                }
+                else
+                {
+                    label1.Visible = true;
+                    label1.Text = "Confira o campo Confirmação de Senha";
+                }
             }
             else
             {
                 label1.Visible = true;
                 label1.Text = "Preencha os campos obrigatórios!";
             }
+        }
+
+        public string encryption(String password)
+        {
+            MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
+            byte[] encrypt;
+            UTF8Encoding encode = new UTF8Encoding();
+            //encrypt the given password string into Encrypted data  
+            encrypt = md5.ComputeHash(encode.GetBytes(password));
+            StringBuilder encryptdata = new StringBuilder();
+            //Create a new string by using the encrypted data  
+            for (int i = 0; i < encrypt.Length; i++)
+            {
+                encryptdata.Append(encrypt[i].ToString());
+            }
+            return encryptdata.ToString();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -325,7 +354,7 @@ namespace atv1_ws
             txtTelefone.Text = logada.telefone;
             txtCelular.Text = logada.celular;
             txtEmail.Text = logada.email;
-            txtSenha.Text = logada.senha;
+            txtSenha.Text = usSenha.senha;
             txtCEP.Text = logada.cep;
             comboBox1.Text = aaa.nome;
             comboBox2.Text = bbb.nome;
@@ -438,11 +467,11 @@ namespace atv1_ws
         private void configuraçõesToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }
+        } 
 
+          
         private void Form3_Load(object sender, EventArgs e)
         {
-
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e) //bairro
