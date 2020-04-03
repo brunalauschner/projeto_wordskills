@@ -46,6 +46,43 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
+            this.imgCertoEndereco = new System.Windows.Forms.PictureBox();
+            this.imgCertoBairro = new System.Windows.Forms.PictureBox();
+            this.imgCertoCidade = new System.Windows.Forms.PictureBox();
+            this.imgCertoEstado = new System.Windows.Forms.PictureBox();
+            this.imgCertoPais = new System.Windows.Forms.PictureBox();
+            this.imgCertoCEP = new System.Windows.Forms.PictureBox();
+            this.imgCertoSenha = new System.Windows.Forms.PictureBox();
+            this.imgCertoEmail = new System.Windows.Forms.PictureBox();
+            this.imgCertoTelefone = new System.Windows.Forms.PictureBox();
+            this.imgCertoData = new System.Windows.Forms.PictureBox();
+            this.imgErroEndereco = new System.Windows.Forms.PictureBox();
+            this.imgErroBairro = new System.Windows.Forms.PictureBox();
+            this.imgErroCidade = new System.Windows.Forms.PictureBox();
+            this.imgErroEstado = new System.Windows.Forms.PictureBox();
+            this.imgErroPais = new System.Windows.Forms.PictureBox();
+            this.imgErroCEP = new System.Windows.Forms.PictureBox();
+            this.imgErroSenha = new System.Windows.Forms.PictureBox();
+            this.imgErroEmail = new System.Windows.Forms.PictureBox();
+            this.imgErroData = new System.Windows.Forms.PictureBox();
+            this.imgErroTelefone = new System.Windows.Forms.PictureBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtConfirmacao = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.txtCEP = new System.Windows.Forms.MaskedTextBox();
@@ -77,76 +114,39 @@
             this.txtData = new System.Windows.Forms.MaskedTextBox();
             this.txtCelular = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.txtConfirmacao = new System.Windows.Forms.TextBox();
             this.roundShapePB2 = new atv1_ws.RoundShapePB();
             this.roundShapePB1 = new atv1_ws.RoundShapePB();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.imgErroTelefone = new System.Windows.Forms.PictureBox();
-            this.imgErroData = new System.Windows.Forms.PictureBox();
-            this.imgErroEmail = new System.Windows.Forms.PictureBox();
-            this.imgErroSenha = new System.Windows.Forms.PictureBox();
-            this.imgErroCEP = new System.Windows.Forms.PictureBox();
-            this.imgErroPais = new System.Windows.Forms.PictureBox();
-            this.imgErroEstado = new System.Windows.Forms.PictureBox();
-            this.imgErroCidade = new System.Windows.Forms.PictureBox();
-            this.imgErroBairro = new System.Windows.Forms.PictureBox();
-            this.imgErroEndereco = new System.Windows.Forms.PictureBox();
-            this.imgCertoData = new System.Windows.Forms.PictureBox();
-            this.imgCertoTelefone = new System.Windows.Forms.PictureBox();
-            this.imgCertoEmail = new System.Windows.Forms.PictureBox();
-            this.imgCertoSenha = new System.Windows.Forms.PictureBox();
-            this.imgCertoCEP = new System.Windows.Forms.PictureBox();
-            this.imgCertoPais = new System.Windows.Forms.PictureBox();
-            this.imgCertoEstado = new System.Windows.Forms.PictureBox();
-            this.imgCertoCidade = new System.Windows.Forms.PictureBox();
-            this.imgCertoBairro = new System.Windows.Forms.PictureBox();
-            this.imgCertoEndereco = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEndereco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoBairro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCidade)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEstado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoPais)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCEP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoSenha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEmail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoTelefone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEndereco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroBairro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroCidade)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEstado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroPais)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroCEP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroSenha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEmail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroTelefone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCertoNome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgErroNome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundShapePB2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundShapePB1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroTelefone)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroData)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEmail)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroSenha)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroCEP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroPais)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEstado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroCidade)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroBairro)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEndereco)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoData)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoTelefone)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEmail)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoSenha)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCEP)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoPais)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEstado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCidade)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoBairro)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEndereco)).BeginInit();
             this.SuspendLayout();
             // 
             // linkLabel1
@@ -275,7 +275,7 @@
             this.panel1.Controls.Add(this.linkLabel3);
             this.panel1.Location = new System.Drawing.Point(0, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(175, 662);
+            this.panel1.Size = new System.Drawing.Size(175, 643);
             this.panel1.TabIndex = 15;
             // 
             // panel2
@@ -286,7 +286,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1370, 43);
+            this.panel2.Size = new System.Drawing.Size(1343, 43);
             this.panel2.TabIndex = 16;
             // 
             // pictureBox1
@@ -334,6 +334,7 @@
             this.panel3.BackColor = System.Drawing.Color.LightGray;
             this.panel3.Controls.Add(this.imgCertoEndereco);
             this.panel3.Controls.Add(this.imgCertoBairro);
+            this.panel3.Controls.Add(this.imgCertoNome);
             this.panel3.Controls.Add(this.imgCertoCidade);
             this.panel3.Controls.Add(this.imgCertoEstado);
             this.panel3.Controls.Add(this.imgCertoPais);
@@ -373,7 +374,6 @@
             this.panel3.Controls.Add(this.btnSalvar);
             this.panel3.Controls.Add(this.txtCEP);
             this.panel3.Controls.Add(this.txtTelefone);
-            this.panel3.Controls.Add(this.imgCertoNome);
             this.panel3.Controls.Add(this.imgErroNome);
             this.panel3.Controls.Add(this.monthCalendar1);
             this.panel3.Controls.Add(this.label13);
@@ -403,8 +403,404 @@
             this.panel3.Controls.Add(this.txtNome);
             this.panel3.Location = new System.Drawing.Point(181, 46);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1189, 640);
+            this.panel3.Size = new System.Drawing.Size(1142, 640);
             this.panel3.TabIndex = 53;
+            // 
+            // imgCertoEndereco
+            // 
+            this.imgCertoEndereco.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEndereco.Image")));
+            this.imgCertoEndereco.Location = new System.Drawing.Point(982, 403);
+            this.imgCertoEndereco.Name = "imgCertoEndereco";
+            this.imgCertoEndereco.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoEndereco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoEndereco.TabIndex = 121;
+            this.imgCertoEndereco.TabStop = false;
+            this.imgCertoEndereco.Visible = false;
+            // 
+            // imgCertoBairro
+            // 
+            this.imgCertoBairro.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoBairro.Image")));
+            this.imgCertoBairro.Location = new System.Drawing.Point(982, 334);
+            this.imgCertoBairro.Name = "imgCertoBairro";
+            this.imgCertoBairro.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoBairro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoBairro.TabIndex = 120;
+            this.imgCertoBairro.TabStop = false;
+            this.imgCertoBairro.Visible = false;
+            // 
+            // imgCertoCidade
+            // 
+            this.imgCertoCidade.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoCidade.Image")));
+            this.imgCertoCidade.Location = new System.Drawing.Point(984, 272);
+            this.imgCertoCidade.Name = "imgCertoCidade";
+            this.imgCertoCidade.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoCidade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoCidade.TabIndex = 119;
+            this.imgCertoCidade.TabStop = false;
+            // 
+            // imgCertoEstado
+            // 
+            this.imgCertoEstado.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEstado.Image")));
+            this.imgCertoEstado.Location = new System.Drawing.Point(982, 204);
+            this.imgCertoEstado.Name = "imgCertoEstado";
+            this.imgCertoEstado.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoEstado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoEstado.TabIndex = 118;
+            this.imgCertoEstado.TabStop = false;
+            // 
+            // imgCertoPais
+            // 
+            this.imgCertoPais.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoPais.Image")));
+            this.imgCertoPais.Location = new System.Drawing.Point(982, 144);
+            this.imgCertoPais.Name = "imgCertoPais";
+            this.imgCertoPais.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoPais.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoPais.TabIndex = 117;
+            this.imgCertoPais.TabStop = false;
+            // 
+            // imgCertoCEP
+            // 
+            this.imgCertoCEP.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoCEP.Image")));
+            this.imgCertoCEP.Location = new System.Drawing.Point(982, 80);
+            this.imgCertoCEP.Name = "imgCertoCEP";
+            this.imgCertoCEP.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoCEP.TabIndex = 116;
+            this.imgCertoCEP.TabStop = false;
+            // 
+            // imgCertoSenha
+            // 
+            this.imgCertoSenha.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoSenha.Image")));
+            this.imgCertoSenha.Location = new System.Drawing.Point(684, 403);
+            this.imgCertoSenha.Name = "imgCertoSenha";
+            this.imgCertoSenha.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoSenha.TabIndex = 115;
+            this.imgCertoSenha.TabStop = false;
+            this.imgCertoSenha.Visible = false;
+            // 
+            // imgCertoEmail
+            // 
+            this.imgCertoEmail.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEmail.Image")));
+            this.imgCertoEmail.Location = new System.Drawing.Point(684, 334);
+            this.imgCertoEmail.Name = "imgCertoEmail";
+            this.imgCertoEmail.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoEmail.TabIndex = 114;
+            this.imgCertoEmail.TabStop = false;
+            this.imgCertoEmail.Visible = false;
+            // 
+            // imgCertoTelefone
+            // 
+            this.imgCertoTelefone.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoTelefone.Image")));
+            this.imgCertoTelefone.Location = new System.Drawing.Point(684, 204);
+            this.imgCertoTelefone.Name = "imgCertoTelefone";
+            this.imgCertoTelefone.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoTelefone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoTelefone.TabIndex = 113;
+            this.imgCertoTelefone.TabStop = false;
+            // 
+            // imgCertoData
+            // 
+            this.imgCertoData.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoData.Image")));
+            this.imgCertoData.Location = new System.Drawing.Point(684, 144);
+            this.imgCertoData.Name = "imgCertoData";
+            this.imgCertoData.Size = new System.Drawing.Size(21, 18);
+            this.imgCertoData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgCertoData.TabIndex = 112;
+            this.imgCertoData.TabStop = false;
+            // 
+            // imgErroEndereco
+            // 
+            this.imgErroEndereco.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEndereco.Image")));
+            this.imgErroEndereco.Location = new System.Drawing.Point(982, 399);
+            this.imgErroEndereco.Name = "imgErroEndereco";
+            this.imgErroEndereco.Size = new System.Drawing.Size(23, 22);
+            this.imgErroEndereco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroEndereco.TabIndex = 111;
+            this.imgErroEndereco.TabStop = false;
+            this.imgErroEndereco.Visible = false;
+            // 
+            // imgErroBairro
+            // 
+            this.imgErroBairro.Image = ((System.Drawing.Image)(resources.GetObject("imgErroBairro.Image")));
+            this.imgErroBairro.Location = new System.Drawing.Point(982, 334);
+            this.imgErroBairro.Name = "imgErroBairro";
+            this.imgErroBairro.Size = new System.Drawing.Size(23, 22);
+            this.imgErroBairro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroBairro.TabIndex = 110;
+            this.imgErroBairro.TabStop = false;
+            this.imgErroBairro.Visible = false;
+            // 
+            // imgErroCidade
+            // 
+            this.imgErroCidade.Image = ((System.Drawing.Image)(resources.GetObject("imgErroCidade.Image")));
+            this.imgErroCidade.Location = new System.Drawing.Point(982, 265);
+            this.imgErroCidade.Name = "imgErroCidade";
+            this.imgErroCidade.Size = new System.Drawing.Size(23, 25);
+            this.imgErroCidade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroCidade.TabIndex = 109;
+            this.imgErroCidade.TabStop = false;
+            this.imgErroCidade.Visible = false;
+            // 
+            // imgErroEstado
+            // 
+            this.imgErroEstado.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEstado.Image")));
+            this.imgErroEstado.Location = new System.Drawing.Point(982, 200);
+            this.imgErroEstado.Name = "imgErroEstado";
+            this.imgErroEstado.Size = new System.Drawing.Size(23, 22);
+            this.imgErroEstado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroEstado.TabIndex = 108;
+            this.imgErroEstado.TabStop = false;
+            this.imgErroEstado.Visible = false;
+            // 
+            // imgErroPais
+            // 
+            this.imgErroPais.Image = ((System.Drawing.Image)(resources.GetObject("imgErroPais.Image")));
+            this.imgErroPais.Location = new System.Drawing.Point(982, 138);
+            this.imgErroPais.Name = "imgErroPais";
+            this.imgErroPais.Size = new System.Drawing.Size(23, 22);
+            this.imgErroPais.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroPais.TabIndex = 107;
+            this.imgErroPais.TabStop = false;
+            this.imgErroPais.Visible = false;
+            // 
+            // imgErroCEP
+            // 
+            this.imgErroCEP.Image = ((System.Drawing.Image)(resources.GetObject("imgErroCEP.Image")));
+            this.imgErroCEP.Location = new System.Drawing.Point(982, 74);
+            this.imgErroCEP.Name = "imgErroCEP";
+            this.imgErroCEP.Size = new System.Drawing.Size(23, 22);
+            this.imgErroCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroCEP.TabIndex = 106;
+            this.imgErroCEP.TabStop = false;
+            this.imgErroCEP.Visible = false;
+            // 
+            // imgErroSenha
+            // 
+            this.imgErroSenha.Image = ((System.Drawing.Image)(resources.GetObject("imgErroSenha.Image")));
+            this.imgErroSenha.Location = new System.Drawing.Point(684, 399);
+            this.imgErroSenha.Name = "imgErroSenha";
+            this.imgErroSenha.Size = new System.Drawing.Size(23, 22);
+            this.imgErroSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroSenha.TabIndex = 105;
+            this.imgErroSenha.TabStop = false;
+            this.imgErroSenha.Visible = false;
+            // 
+            // imgErroEmail
+            // 
+            this.imgErroEmail.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEmail.Image")));
+            this.imgErroEmail.Location = new System.Drawing.Point(684, 334);
+            this.imgErroEmail.Name = "imgErroEmail";
+            this.imgErroEmail.Size = new System.Drawing.Size(23, 22);
+            this.imgErroEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroEmail.TabIndex = 104;
+            this.imgErroEmail.TabStop = false;
+            this.imgErroEmail.Visible = false;
+            // 
+            // imgErroData
+            // 
+            this.imgErroData.Image = ((System.Drawing.Image)(resources.GetObject("imgErroData.Image")));
+            this.imgErroData.Location = new System.Drawing.Point(684, 138);
+            this.imgErroData.Name = "imgErroData";
+            this.imgErroData.Size = new System.Drawing.Size(23, 22);
+            this.imgErroData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroData.TabIndex = 103;
+            this.imgErroData.TabStop = false;
+            this.imgErroData.Visible = false;
+            // 
+            // imgErroTelefone
+            // 
+            this.imgErroTelefone.Image = ((System.Drawing.Image)(resources.GetObject("imgErroTelefone.Image")));
+            this.imgErroTelefone.Location = new System.Drawing.Point(684, 200);
+            this.imgErroTelefone.Name = "imgErroTelefone";
+            this.imgErroTelefone.Size = new System.Drawing.Size(23, 22);
+            this.imgErroTelefone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgErroTelefone.TabIndex = 102;
+            this.imgErroTelefone.TabStop = false;
+            this.imgErroTelefone.Visible = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label27.Location = new System.Drawing.Point(522, 435);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(15, 19);
+            this.label27.TabIndex = 101;
+            this.label27.Text = "*";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(382, 435);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(145, 19);
+            this.label26.TabIndex = 100;
+            this.label26.Text = "Confirmação de senha";
+            // 
+            // txtConfirmacao
+            // 
+            this.txtConfirmacao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmacao.Location = new System.Drawing.Point(406, 457);
+            this.txtConfirmacao.Name = "txtConfirmacao";
+            this.txtConfirmacao.Size = new System.Drawing.Size(227, 25);
+            this.txtConfirmacao.TabIndex = 99;
+            this.txtConfirmacao.TextChanged += new System.EventHandler(this.txtConfirmacao_TextChanged);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label25.Location = new System.Drawing.Point(261, 83);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(15, 19);
+            this.label25.TabIndex = 98;
+            this.label25.Text = "*";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label24.Location = new System.Drawing.Point(807, 365);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(15, 19);
+            this.label24.TabIndex = 97;
+            this.label24.Text = "*";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label23.Location = new System.Drawing.Point(780, 300);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(15, 19);
+            this.label23.TabIndex = 96;
+            this.label23.Text = "*";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label22.Location = new System.Drawing.Point(795, 234);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(15, 19);
+            this.label22.TabIndex = 95;
+            this.label22.Text = "*";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label21.Location = new System.Drawing.Point(795, 166);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(15, 19);
+            this.label21.TabIndex = 94;
+            this.label21.Text = "*";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label20.Location = new System.Drawing.Point(777, 102);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(15, 19);
+            this.label20.TabIndex = 93;
+            this.label20.Text = "*";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label19.Location = new System.Drawing.Point(780, 44);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(15, 19);
+            this.label19.TabIndex = 92;
+            this.label19.Text = "*";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label18.Location = new System.Drawing.Point(426, 365);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(15, 19);
+            this.label18.TabIndex = 91;
+            this.label18.Text = "*";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label17.Location = new System.Drawing.Point(426, 300);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(15, 19);
+            this.label17.TabIndex = 90;
+            this.label17.Text = "*";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label16.Location = new System.Drawing.Point(437, 166);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(15, 19);
+            this.label16.TabIndex = 89;
+            this.label16.Text = "*";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label15.Location = new System.Drawing.Point(507, 102);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(15, 19);
+            this.label15.TabIndex = 88;
+            this.label15.Text = "*";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label14.Location = new System.Drawing.Point(426, 49);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(15, 19);
+            this.label14.TabIndex = 87;
+            this.label14.Text = "*";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(639, 396);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(21, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 86;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(629, 120);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(49, 42);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 85;
+            this.pictureBox4.TabStop = false;
             // 
             // label1
             // 
@@ -448,22 +844,24 @@
             // imgCertoNome
             // 
             this.imgCertoNome.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoNome.Image")));
-            this.imgCertoNome.Location = new System.Drawing.Point(676, 71);
+            this.imgCertoNome.Location = new System.Drawing.Point(684, 78);
             this.imgCertoNome.Name = "imgCertoNome";
-            this.imgCertoNome.Size = new System.Drawing.Size(31, 29);
+            this.imgCertoNome.Size = new System.Drawing.Size(21, 18);
             this.imgCertoNome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgCertoNome.TabIndex = 80;
             this.imgCertoNome.TabStop = false;
+            this.imgCertoNome.Visible = false;
             // 
             // imgErroNome
             // 
             this.imgErroNome.Image = ((System.Drawing.Image)(resources.GetObject("imgErroNome.Image")));
-            this.imgErroNome.Location = new System.Drawing.Point(676, 64);
+            this.imgErroNome.Location = new System.Drawing.Point(684, 74);
             this.imgErroNome.Name = "imgErroNome";
-            this.imgErroNome.Size = new System.Drawing.Size(36, 38);
+            this.imgErroNome.Size = new System.Drawing.Size(23, 22);
             this.imgErroNome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgErroNome.TabIndex = 79;
             this.imgErroNome.TabStop = false;
+            this.imgErroNome.Visible = false;
             // 
             // monthCalendar1
             // 
@@ -620,6 +1018,7 @@
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(227, 25);
             this.txtEndereco.TabIndex = 62;
+            this.txtEndereco.TextChanged += new System.EventHandler(this.txtEndereco_TextChanged);
             // 
             // txtBairro
             // 
@@ -664,6 +1063,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(227, 25);
             this.txtSenha.TabIndex = 57;
+            this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
             // txtEmail
             // 
@@ -672,6 +1072,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(227, 25);
             this.txtEmail.TabIndex = 56;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // txtData
             // 
@@ -682,6 +1083,7 @@
             this.txtData.Size = new System.Drawing.Size(217, 25);
             this.txtData.TabIndex = 55;
             this.txtData.ValidatingType = typeof(System.DateTime);
+            this.txtData.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtData_MaskInputRejected);
             // 
             // txtCelular
             // 
@@ -698,166 +1100,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(227, 25);
             this.txtNome.TabIndex = 53;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(629, 118);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(47, 44);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 85;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(639, 395);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(27, 26);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 86;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label14.Location = new System.Drawing.Point(426, 49);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(15, 19);
-            this.label14.TabIndex = 87;
-            this.label14.Text = "*";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label15.Location = new System.Drawing.Point(507, 102);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(15, 19);
-            this.label15.TabIndex = 88;
-            this.label15.Text = "*";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label16.Location = new System.Drawing.Point(437, 166);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(15, 19);
-            this.label16.TabIndex = 89;
-            this.label16.Text = "*";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label17.Location = new System.Drawing.Point(426, 300);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(15, 19);
-            this.label17.TabIndex = 90;
-            this.label17.Text = "*";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label18.Location = new System.Drawing.Point(426, 365);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(15, 19);
-            this.label18.TabIndex = 91;
-            this.label18.Text = "*";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label19.Location = new System.Drawing.Point(780, 44);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(15, 19);
-            this.label19.TabIndex = 92;
-            this.label19.Text = "*";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label20.Location = new System.Drawing.Point(777, 102);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(15, 19);
-            this.label20.TabIndex = 93;
-            this.label20.Text = "*";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label21.Location = new System.Drawing.Point(795, 166);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(15, 19);
-            this.label21.TabIndex = 94;
-            this.label21.Text = "*";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label22.Location = new System.Drawing.Point(795, 234);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(15, 19);
-            this.label22.TabIndex = 95;
-            this.label22.Text = "*";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label23.Location = new System.Drawing.Point(780, 300);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(15, 19);
-            this.label23.TabIndex = 96;
-            this.label23.Text = "*";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label24.Location = new System.Drawing.Point(807, 365);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(15, 19);
-            this.label24.TabIndex = 97;
-            this.label24.Text = "*";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label25.Location = new System.Drawing.Point(261, 83);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(15, 19);
-            this.label25.TabIndex = 98;
-            this.label25.Text = "*";
-            // 
-            // txtConfirmacao
-            // 
-            this.txtConfirmacao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmacao.Location = new System.Drawing.Point(406, 457);
-            this.txtConfirmacao.Name = "txtConfirmacao";
-            this.txtConfirmacao.Size = new System.Drawing.Size(227, 25);
-            this.txtConfirmacao.TabIndex = 99;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // roundShapePB2
             // 
@@ -873,247 +1116,28 @@
             // 
             this.roundShapePB1.ContextMenuStrip = this.contextMenuStrip1;
             this.roundShapePB1.Image = ((System.Drawing.Image)(resources.GetObject("roundShapePB1.Image")));
-            this.roundShapePB1.Location = new System.Drawing.Point(1319, 3);
+            this.roundShapePB1.Location = new System.Drawing.Point(1301, 3);
             this.roundShapePB1.Name = "roundShapePB1";
             this.roundShapePB1.Size = new System.Drawing.Size(39, 37);
             this.roundShapePB1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.roundShapePB1.TabIndex = 0;
             this.roundShapePB1.TabStop = false;
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(382, 435);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(145, 19);
-            this.label26.TabIndex = 100;
-            this.label26.Text = "Confirmação de senha";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label27.Location = new System.Drawing.Point(522, 435);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(15, 19);
-            this.label27.TabIndex = 101;
-            this.label27.Text = "*";
-            // 
-            // imgErroTelefone
-            // 
-            this.imgErroTelefone.Image = ((System.Drawing.Image)(resources.GetObject("imgErroTelefone.Image")));
-            this.imgErroTelefone.Location = new System.Drawing.Point(676, 184);
-            this.imgErroTelefone.Name = "imgErroTelefone";
-            this.imgErroTelefone.Size = new System.Drawing.Size(36, 38);
-            this.imgErroTelefone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroTelefone.TabIndex = 102;
-            this.imgErroTelefone.TabStop = false;
-            // 
-            // imgErroData
-            // 
-            this.imgErroData.Image = ((System.Drawing.Image)(resources.GetObject("imgErroData.Image")));
-            this.imgErroData.Location = new System.Drawing.Point(676, 124);
-            this.imgErroData.Name = "imgErroData";
-            this.imgErroData.Size = new System.Drawing.Size(36, 38);
-            this.imgErroData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroData.TabIndex = 103;
-            this.imgErroData.TabStop = false;
-            // 
-            // imgErroEmail
-            // 
-            this.imgErroEmail.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEmail.Image")));
-            this.imgErroEmail.Location = new System.Drawing.Point(676, 325);
-            this.imgErroEmail.Name = "imgErroEmail";
-            this.imgErroEmail.Size = new System.Drawing.Size(36, 38);
-            this.imgErroEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroEmail.TabIndex = 104;
-            this.imgErroEmail.TabStop = false;
-            // 
-            // imgErroSenha
-            // 
-            this.imgErroSenha.Image = ((System.Drawing.Image)(resources.GetObject("imgErroSenha.Image")));
-            this.imgErroSenha.Location = new System.Drawing.Point(676, 383);
-            this.imgErroSenha.Name = "imgErroSenha";
-            this.imgErroSenha.Size = new System.Drawing.Size(36, 38);
-            this.imgErroSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroSenha.TabIndex = 105;
-            this.imgErroSenha.TabStop = false;
-            // 
-            // imgErroCEP
-            // 
-            this.imgErroCEP.Image = ((System.Drawing.Image)(resources.GetObject("imgErroCEP.Image")));
-            this.imgErroCEP.Location = new System.Drawing.Point(982, 64);
-            this.imgErroCEP.Name = "imgErroCEP";
-            this.imgErroCEP.Size = new System.Drawing.Size(36, 38);
-            this.imgErroCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroCEP.TabIndex = 106;
-            this.imgErroCEP.TabStop = false;
-            // 
-            // imgErroPais
-            // 
-            this.imgErroPais.Image = ((System.Drawing.Image)(resources.GetObject("imgErroPais.Image")));
-            this.imgErroPais.Location = new System.Drawing.Point(982, 124);
-            this.imgErroPais.Name = "imgErroPais";
-            this.imgErroPais.Size = new System.Drawing.Size(36, 38);
-            this.imgErroPais.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroPais.TabIndex = 107;
-            this.imgErroPais.TabStop = false;
-            // 
-            // imgErroEstado
-            // 
-            this.imgErroEstado.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEstado.Image")));
-            this.imgErroEstado.Location = new System.Drawing.Point(982, 184);
-            this.imgErroEstado.Name = "imgErroEstado";
-            this.imgErroEstado.Size = new System.Drawing.Size(36, 38);
-            this.imgErroEstado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroEstado.TabIndex = 108;
-            this.imgErroEstado.TabStop = false;
-            // 
-            // imgErroCidade
-            // 
-            this.imgErroCidade.Image = ((System.Drawing.Image)(resources.GetObject("imgErroCidade.Image")));
-            this.imgErroCidade.Location = new System.Drawing.Point(982, 252);
-            this.imgErroCidade.Name = "imgErroCidade";
-            this.imgErroCidade.Size = new System.Drawing.Size(36, 38);
-            this.imgErroCidade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroCidade.TabIndex = 109;
-            this.imgErroCidade.TabStop = false;
-            // 
-            // imgErroBairro
-            // 
-            this.imgErroBairro.Image = ((System.Drawing.Image)(resources.GetObject("imgErroBairro.Image")));
-            this.imgErroBairro.Location = new System.Drawing.Point(982, 325);
-            this.imgErroBairro.Name = "imgErroBairro";
-            this.imgErroBairro.Size = new System.Drawing.Size(36, 38);
-            this.imgErroBairro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroBairro.TabIndex = 110;
-            this.imgErroBairro.TabStop = false;
-            // 
-            // imgErroEndereco
-            // 
-            this.imgErroEndereco.Image = ((System.Drawing.Image)(resources.GetObject("imgErroEndereco.Image")));
-            this.imgErroEndereco.Location = new System.Drawing.Point(982, 383);
-            this.imgErroEndereco.Name = "imgErroEndereco";
-            this.imgErroEndereco.Size = new System.Drawing.Size(36, 38);
-            this.imgErroEndereco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgErroEndereco.TabIndex = 111;
-            this.imgErroEndereco.TabStop = false;
-            // 
-            // imgCertoData
-            // 
-            this.imgCertoData.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoData.Image")));
-            this.imgCertoData.Location = new System.Drawing.Point(676, 131);
-            this.imgCertoData.Name = "imgCertoData";
-            this.imgCertoData.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoData.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoData.TabIndex = 112;
-            this.imgCertoData.TabStop = false;
-            // 
-            // imgCertoTelefone
-            // 
-            this.imgCertoTelefone.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoTelefone.Image")));
-            this.imgCertoTelefone.Location = new System.Drawing.Point(676, 193);
-            this.imgCertoTelefone.Name = "imgCertoTelefone";
-            this.imgCertoTelefone.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoTelefone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoTelefone.TabIndex = 113;
-            this.imgCertoTelefone.TabStop = false;
-            // 
-            // imgCertoEmail
-            // 
-            this.imgCertoEmail.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEmail.Image")));
-            this.imgCertoEmail.Location = new System.Drawing.Point(676, 331);
-            this.imgCertoEmail.Name = "imgCertoEmail";
-            this.imgCertoEmail.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoEmail.TabIndex = 114;
-            this.imgCertoEmail.TabStop = false;
-            // 
-            // imgCertoSenha
-            // 
-            this.imgCertoSenha.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoSenha.Image")));
-            this.imgCertoSenha.Location = new System.Drawing.Point(676, 392);
-            this.imgCertoSenha.Name = "imgCertoSenha";
-            this.imgCertoSenha.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoSenha.TabIndex = 115;
-            this.imgCertoSenha.TabStop = false;
-            // 
-            // imgCertoCEP
-            // 
-            this.imgCertoCEP.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoCEP.Image")));
-            this.imgCertoCEP.Location = new System.Drawing.Point(982, 71);
-            this.imgCertoCEP.Name = "imgCertoCEP";
-            this.imgCertoCEP.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoCEP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoCEP.TabIndex = 116;
-            this.imgCertoCEP.TabStop = false;
-            // 
-            // imgCertoPais
-            // 
-            this.imgCertoPais.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoPais.Image")));
-            this.imgCertoPais.Location = new System.Drawing.Point(982, 131);
-            this.imgCertoPais.Name = "imgCertoPais";
-            this.imgCertoPais.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoPais.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoPais.TabIndex = 117;
-            this.imgCertoPais.TabStop = false;
-            // 
-            // imgCertoEstado
-            // 
-            this.imgCertoEstado.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEstado.Image")));
-            this.imgCertoEstado.Location = new System.Drawing.Point(982, 193);
-            this.imgCertoEstado.Name = "imgCertoEstado";
-            this.imgCertoEstado.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoEstado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoEstado.TabIndex = 118;
-            this.imgCertoEstado.TabStop = false;
-            // 
-            // imgCertoCidade
-            // 
-            this.imgCertoCidade.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoCidade.Image")));
-            this.imgCertoCidade.Location = new System.Drawing.Point(982, 261);
-            this.imgCertoCidade.Name = "imgCertoCidade";
-            this.imgCertoCidade.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoCidade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoCidade.TabIndex = 119;
-            this.imgCertoCidade.TabStop = false;
-            // 
-            // imgCertoBairro
-            // 
-            this.imgCertoBairro.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoBairro.Image")));
-            this.imgCertoBairro.Location = new System.Drawing.Point(982, 331);
-            this.imgCertoBairro.Name = "imgCertoBairro";
-            this.imgCertoBairro.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoBairro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoBairro.TabIndex = 120;
-            this.imgCertoBairro.TabStop = false;
-            // 
-            // imgCertoEndereco
-            // 
-            this.imgCertoEndereco.Image = ((System.Drawing.Image)(resources.GetObject("imgCertoEndereco.Image")));
-            this.imgCertoEndereco.Location = new System.Drawing.Point(982, 392);
-            this.imgCertoEndereco.Name = "imgCertoEndereco";
-            this.imgCertoEndereco.Size = new System.Drawing.Size(31, 29);
-            this.imgCertoEndereco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgCertoEndereco.TabIndex = 121;
-            this.imgCertoEndereco.TabStop = false;
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1370, 688);
+            this.ClientSize = new System.Drawing.Size(1343, 688);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Dashboard - Archin Representações";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1121,32 +1145,32 @@
             this.contextMenuStrip1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEndereco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoBairro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCidade)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEstado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoPais)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCEP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoSenha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoTelefone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCertoData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEndereco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroBairro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroCidade)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEstado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroPais)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroCEP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroSenha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgErroTelefone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCertoNome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgErroNome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundShapePB2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundShapePB1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroTelefone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroData)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEmail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroSenha)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroCEP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroPais)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEstado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroCidade)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroBairro)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgErroEndereco)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoData)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoTelefone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEmail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoSenha)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCEP)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoPais)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEstado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoCidade)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoBairro)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgCertoEndereco)).EndInit();
             this.ResumeLayout(false);
 
         }
